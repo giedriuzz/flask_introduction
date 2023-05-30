@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sarašas</title>
+</head>
+<body>
+<h1>Žmonių sarašas: </h1>
+{%for name in my_list%}
+    {%if name == 'Jonas'%}
+    <h2 style="color:blue; font: 1em sans-serif;">{{name}}</h2>
+   
+    {%endif%}
+    {%endfor%}
+
+</body>
+</html>
